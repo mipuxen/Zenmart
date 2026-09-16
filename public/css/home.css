@@ -1,0 +1,1034 @@
+  .home_page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header_frame {
+    position: relative;
+    margin-top: 47px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_frame .container {
+    flex-direction:row;
+  }
+.white_svg {
+  filter: brightness(0) invert(1);
+  margin-top: 150px;
+}
+.container .category_top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .category_top div {
+display:flex;
+flex-direction: row;
+}
+
+.category_top span {
+  margin-left: 0px;
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.category_top a {
+  margin-right: 0px;
+  margin-left: 30px;
+  width: auto;
+  height: 22px;
+  color: rgba(4, 30, 66, 1);
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px; 
+}
+
+.category_top a:hover {
+border-bottom: 2px solid #041e42;
+}
+/* pagionation */
+
+.container .pagionation_box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .pagionation_box .pagionation_main {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.container .pagionation_main .pagionation_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .pagionation_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% ;
+}
+
+.container .pagionation_dot .dot:active {
+  border: 2px solid #112137 ;
+}
+.container .pagionation_dot .dot div{
+width: 4px;
+height: 4px;
+background: #112137;
+}
+
+
+/* shop now uchun umumiy belgi */
+.container .hover_border1 {
+    margin-top: 3px;
+    width: 32px;
+    height: 3px;
+
+background: #041e42;
+}
+
+/* next_prev uchun  */
+
+.container .next_prev_box {
+  width: 25px;
+  margin-top: 15%;
+}
+
+.container .next_prev_box img {
+  position: absolute;
+  cursor: pointer;
+}
+.container .next_prev_box img:hover{
+  transform: scale(1.5); }
+
+/* product card  */
+
+.product_img_box:hover .hover_box {
+  display: flex;
+}
+
+.container .product_box .product_content_box {
+  padding: 5px 22px ;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.container .product_content_box .product_title {
+font-family: "Jost";
+font-style: normal;
+font-size: 13px;
+font-weight: 500;
+line-height: 22px;
+text-transform: uppercase;
+color: #626974;
+}
+
+.container .product_content_box .product_desc {
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+
+color: #041e42;
+}
+
+.container .product_content_box .review_box {
+margin-top: 7px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.container .review_box img {
+  margin-right: 5px;
+}
+
+.container .review_box span{
+margin-left: 10px;
+color: rgba(98, 105, 116, 1);
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+}
+
+.container .product_content_box .price_box {
+ margin-top: 10px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.container .price_box strong {
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.container .price_box span {
+margin-left: 10px;
+color: rgba(98, 105, 116, 1);
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: line-through;
+color: rgba(98, 105, 116, 1);
+}
+
+/* header frame */
+  .header_frame .container .header_left {
+    position: relative;
+    padding: 15px;
+    width: 875px;
+    height: 508px;
+
+    background-color: #0053f6;
+    background-image: url(..//images/icons/header_bg.svg);
+    border-radius: 5px;
+  }
+
+  .header_frame .header_left .header_content {
+    margin-top: 90px;
+    margin-left: 10px; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header_frame .header_content div {
+    width: 104px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f5c34b;
+    border-radius: 6px;
+
+    font-family: "Jost";
+    font-style: "normal";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: #041e42;
+
+  }
+
+  .header_frame .header_content span {
+    margin-top: 10px;
+    width: 428px;
+    font-family: "Jost";
+    font-style: "normal";
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 87px;
+
+    color: #ffffff;
+
+  }
+
+  .header_frame .header_content p {
+    margin-top: 10px;
+    width: 428px;
+    font-family: "Jost";
+    font-style: "normal";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #ffffff;
+
+  }
+
+  .header_frame .header_content a {
+    margin-top: 20px;
+    width: 140px;
+    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+    border-radius: 6px;
+
+    font-family: "Jost";
+    font-style: "normal";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #041e42;
+
+
+  }
+
+.header_frame .header_content img {
+    position: absolute;
+    right: 10px;
+    object-fit: fill;
+}
+
+.header_frame .container .header_right {
+    position: relative;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header_frame .header_right .header_box {
+width: 422px;
+height: 240px;
+
+display: flex;
+flex-direction: row;
+background: #f2f2f2;
+border-radius: 5px;
+}
+
+.header_frame .header_right .box_left {
+  margin-left: 30px;
+width: 50%;
+
+display: flex;
+flex-direction:column ;
+justify-content: center;
+}
+
+.header_frame .box_left span {
+font-family: "Jost";
+font-style: "normal";
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+color: #0053f6;
+}
+
+.header_frame .box_left p {
+margin: 10px 0px;
+font-family: "Jost";
+font-style: "normal";
+font-weight: 500;
+font-size: 26px;
+line-height: 38px;
+}
+
+.header_frame .box_left a {
+font-family: "Jost";
+font-style: "normal";
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+}
+
+
+/* ikkincji hover uzunroq qilishimuchun */
+.header_frame .box_left .hover_border {
+    margin-top: 3px;
+    width: 128px;
+    height: 3px;
+
+background: #041e42;
+}
+
+.header_frame .header_box .box_right {
+width: 50%;
+}
+
+.header_frame .box_right img {
+width: 100%;
+height: 100%;
+
+}
+/* service  */
+
+.service_frame {
+position: relative;
+margin-top: 30px;
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+}
+
+.service_frame .container {
+  flex-direction: row;
+  width: 1320px;
+}
+
+.service_frame .container .service_box {
+flex: 1;
+height: 86px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+border-bottom: 1px solid #eaeaea;
+}
+
+.service_frame .service_box img {
+  width: 35px;
+  height: 35px;
+}
+
+.service_frame .service_box .service_content {
+  margin-left: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service_frame .service_content span {
+font-family: "Jost";
+font-style: "normal";
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+
+color: #041e42;
+}
+
+.service_frame .service_content p {
+font-family: "Jost";
+font-style: "normal";
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+
+color: #626974;
+}
+
+
+/* Shop category */
+
+.shop_category_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.shop_category_frame .container {
+  flex-direction: column;
+}
+
+.shop_category_frame .container .category_wrapper {
+margin-top: 30px;
+width: 100%;
+height: auto;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.shop_category_frame .category_wrapper .category_box {
+width: 142px;
+height: auto;
+
+display: flex;
+flex-direction: column;
+cursor: pointer;
+}
+
+.shop_category_frame .category_box .category_img_box {
+width: 100%;
+height: 150px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+border: 1px solid #eaeaea;
+border-radius: 150px;
+}
+
+.shop_category_frame .category_img_box:hover {
+  transform: scale(1.3);
+}
+.shop_category_frame .category_box span {
+margin-top: 15px;
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+
+color: #041e42;
+}
+
+/* top selling product title */
+
+/* top  selling swiper  */
+
+.swiper {
+  margin-top: 60px;
+  width: 550px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.selling_product_frame .container {
+  flex-direction: column;
+}
+
+.swiper .swipper-wrapper {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.swiper .product_boxes .product_box {
+  width: 306px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.swiper .product_img_box {
+  left: 150px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+.swiper .product_img_box .hover_box {
+  position: absolute;
+  top: 30px;            
+  display: none;      
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}    
+                    
+.swiper .hover_box button {
+  margin-right: 350px;
+  width: 260px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  outline: none;
+  border: none;
+
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
+  background: rgba(0, 83, 246, 1);
+
+  color: rgba(255, 255, 255, 1);
+  font-family: "Jost";
+  font-style:normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  cursor: pointer;
+}
+.swiper .product_img_box:hover .hover_box {
+  display: flex;
+}
+
+.swiper .product_content_box {
+  margin-top: 5px;
+  margin-left: 55px;
+  padding: 5px 22px ;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.swiper .product_title {
+font-family: "Jost";
+font-style: normal;
+font-size: 13px;
+font-weight: 500;
+line-height: 22px;
+text-transform: uppercase;
+color: #626974;
+}
+
+.swiper .product_desc {
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+
+color: #041e42;
+}
+
+.swiper .review_box {
+margin-top: 7px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.swiper .review_box img {
+  margin-right: 5px;
+}
+
+.swiper .review_box span{
+ margin-left: 25px;
+ color: rgba(98, 105, 116, 1);
+ font-family: "Jost";
+ font-style: Regular;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 22px;
+}
+
+.swiper .product_content_box .price_box {
+ margin-top: 10px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.swiper .price_box strong {
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.swiper .price_box span {
+margin-left: 15px;
+color: rgba(98, 105, 116, 1);
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+}
+
+/* long adv  */
+
+.home_page .adv_frame {
+margin-top: 90px;
+width: 100%;
+height: 120px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgba(0, 83, 246, 1);
+background-color: #e5edff;
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* spec Headphones  */
+.home_page .spec_product_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.spec_product_frame .container {
+  flex-direction: column;
+}
+
+.spec_product_frame .container .spec_product_wrapper {
+position: relative;
+width: 100%;
+height: auto;
+margin-top: 35px;
+
+display: flex;
+flex-direction: row;
+}
+
+.spec_product_frame .spec_product_wrapper .big_product_box {
+  position: relative;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 664px;
+  height: 368px;
+
+
+  display: flex;
+  flex-direction: row;
+
+  background:#f3f5f6;
+  border-radius: 6px;
+}
+
+.spec_product_frame .big_product_box .big_product_content {
+  width: 160px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.spec_product_frame .big_product_content span {
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.spec_product_frame .big_product_content p {
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+font-style: Medium;
+font-size: 26px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.spec_product_frame .big_product_content a {
+/* Button-Line */
+width: 70px;
+height: 27px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 3px;
+/* style ham bir xil qilib oldim */
+font-family: "Jost";
+font-style: "normal";
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+}
+
+.spec_product_frame .big_product_box img {
+position: absolute;
+width: 322px;
+height: 309px;
+right: 5%;
+}
+
+.spec_product_frame .spec_product_wrapper .small_product_wrapper {
+margin-left: 30px;
+width: 620px;
+height: 368px;
+
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.spec_product_frame .small_product_wrapper .small_product_box {
+position: relative;
+padding: 30px;
+width: 293px;
+height: 170px;
+
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+
+background: #f3f5f6;
+border-radius: 6px;
+}
+
+.spec_product_frame .small_product_box:nth-child(odd) {
+margin-right: 30px;
+}
+
+.spec_product_frame .small_product_box .small_product_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.spec_product_frame .small_product_content strong {
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+font-style: Medium;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.spec_product_frame .small_product_content span {
+color: rgba(4, 30, 66, 1);
+font-family: "Jost";
+font-style: normal;
+font-size: 13px;
+line-height: 22px;
+}
+
+.spec_product_frame .small_product_box img {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+}
+
+.spec_product_frame .small_product_wrapper .small_product_box:nth-child(3) img,
+.spec_product_frame .small_product_wrapper .small_product_box:nth-child(4) img {
+  position: absolute;
+  right: 30px;
+  top: 70px;  
+}
+
+/* tv and home start */
+
+.home_page .tv_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.tv_frame .container {
+  flex-direction: column;
+} 
+
+.tv_frame .container .tv_wrapper {
+margin-top: 30px;
+width: 100%;
+height: auto;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.tv_frame .tv_wrapper .tv_product_boxes {
+  width: 1300px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.tv_frame .tv_product_boxes .tv_product_box {
+width: 260px;
+height: 452px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+background: #ffffff;
+}
+
+.tv_frame .tv_product_box .price_box span {
+margin-left: 10px ;
+color: rgba(98, 105, 116, 1);
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: line-through;
+}
+
+/* event start */
+
+.home_page .event_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: 632px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+background-image: url('../images/icons/event_bg.png');
+}
+
+.event_frame .container {
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.event_frame .container .event_content_box {
+  width: 340px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event_frame .event_content_box .event_title {
+ font-family: "Jost";
+ font-style: normal;
+ font-size: 28px;
+ font-weight: 500;
+ line-height: 40px;
+ color: #ffffff;
+ text-transform: capitalize;
+}
+
+.event_frame .event_content_box .timer_wrapper {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.event_frame .timer_wrapper .timer_box {
+margin-right: 8px;
+width: 82px;
+height: auto;
+
+display: flex;
+flex-direction: column;
+}
+
+.event_frame .timer_box strong {
+ color: rgba(255, 255, 255, 1);
+ font-family: "Jost";
+ font-style: normal;
+ font-size: 28px;
+ font-weight: 500;
+ line-height: 40px;
+}
+.event_frame .timer_box span {
+ color: rgba(255, 255, 255, 1);
+ font-family: "Jost";
+ font-style: normal;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 28px;
+}
+
+.event_frame .event_content_box a {
+  width: 140px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  background: #ffffff;
+
+ font-family: "Jost";
+ font-style: Medium;
+ font-size: 15px;
+ font-weight: 500;
+ line-height: 22px;
+ text-align: center;
+}
+
+.event_frame .container .event_product_wrapper {
+width: 930px;
+height: auto;
+
+display: flex;
+flex-direction: row;
+}
+
+.event_frame .event_product_wrapper .event_product_boxes {
+position: relative;
+width: auto;
+height: auto;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.event_frame .event_product_boxes .event_product_box {
+margin-right: 8px;
+width: 205px;
+height: 392px;
+
+display: flex;
+flex-direction: column;
+border-radius: 6px;
+background: #ffffff;
+}
+
+.event_frame .event_product_box .event_product_img {
+width: 100%;
+height: 220px;
+
+
+display: flex;
+justify-content: center ;
+align-items: center;
+}
