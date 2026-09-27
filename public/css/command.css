@@ -5,7 +5,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    /* background-color: red; */
 
 }
 a { 
@@ -43,7 +42,7 @@ flex-direction: row;
 justify-content: flex-start;
 }
 .container {
-    padding: 20px 0 14px;
+    padding-top: 20px;
     flex-direction: column;
     
 }
@@ -284,6 +283,39 @@ font-family: var(--font);
  font-weight: 400;
  line-height: 20px;
 }
+/* router start */
+
+.page_router {
+margin-top: 10px;
+width: 1320px;
+height: auto;
+}
+
+.page_router span {
+margin-left: 20px;
+font-family: var(--font);
+font-style:normal;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+}
+
+.page_router .drop {
+margin-left: 20px;
+}
+
+.page_router .dcomputer {
+color: rgba(98, 105, 116, 1);
+font-family: var(--font);
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+
+
+color: #626974;
+}
+
 
 /* footer start */
 
