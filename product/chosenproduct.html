@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenmart</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap" 
+rel="stylesheet">
+    
+    <!-- page ulanishi -->
+     <link rel="stylesheet" href="../public/css/command.css">
+     <link rel="stylesheet" href="../public/css/chosenProduct.css">
+     <link rel="stylesheet" href="../public/css/product.all.css">
+
+     <!-- Font-AWESOME -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" 
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+</head>
+<body>
+    <!-- Navbar start  -->
+    <div class="navbar_frame">
+        <div class="container">
+             <div class="navbar_top">
+               <a class="logo" href="../index.html"> <img src="../public/images/icons/logo.png" alt="">
+            </a>
+              
+             <div class="nav_search_frame">
+                <div class="search_box">
+                    <div class="category_list">
+                    <select name="" id="">
+                        <option value="all" selected>All categories</option>
+                        <option value="computer">computer</option>
+                    </select>
+                    </div>
+                    <input type="text" placeholder="Search Products">
+                </div> 
+                <div class="search_icon_box">
+                   <img src="../public/images/icons/search.svg" alt="">
+                </div>
+             </div>
+             
+             <div class="nav_top_menu">
+                <a href="../order/cart.html">
+                <div class="top_menu_box">
+                    <div class="box_icon_box">
+                        <img src="../public/images/icons/heart.svg">
+                    </div>
+                    <div class="box_info_box">
+                        <span>Wishlist</span>
+                        <strong>My Items</strong>
+                    </div>
+                </div> </a>
+                <div></div>
+                <div></div>
+             </div>
+                 
+             <div class="nav_top_menu">
+                <a href="../other/login.html">
+                <div class="top_menu_box">
+                    <div class="box_icon_box">
+                        <img src="../public/images/icons/profile.svg">
+                    </div>
+                    <div class="box_info_box">
+                        <span>Sign In</span>
+                        <strong>Account</strong>
+                    </div>
+                </div> </a>
+                <div></div>
+                <div></div>
+             </div>
+
+             <div class="nav_top_menu">
+                <a href="../order/cart.html">
+                <div class="top_menu_box">
+                    <div class="box_icon_box">
+                        <div class="basket_count">2</div>
+                        <img src="../public/images/icons/shopping-cart.svg">
+                    </div>
+                    <div class="box_info_box">
+                        <span>$200.99</span>
+                        <strong>Total</strong>
+                    </div>
+                </div> </a>
+                <div></div>
+                <div></div>
+             </div>
+            </div> 
+            <div class="navbar_bott">
+                <div class="navbar_bott_menu_box">
+                    <div class="browse_box">
+                        <img src="../public/images/icons/browse.svg" alt="">
+                        <span>Browse Categories</span>
+                    </div>
+                <div class="navbar_route_menu">
+                    <a href="../index.html">Home</a>
+                    <a href="../product/all.html" class="title">Shop</a>
+                    <a href="../order/cart.html">Orders</a>
+                    <a href="../other/about.html">About</a>
+                    <a href="../other/contact.html">Contact</a>
+                </div> 
+
+                <div class="sorting_menu">
+                    <span>Deal of the Day</span>
+                    <span>Hot Deals</span>
+                    <span>Best Sellers</span>
+                    <span>New Arrivals</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar end -->
+
+    <!-- chosenproduct start -->
+     <div class="chosenProduct_page">
+
+        <!-- page router start -->
+        <div class="page_router">
+            <span>Home</span>
+            <span class="drop">/</span>
+            <span>Electronics</span>
+            <span class="drop">/</span>
+            <span>Computers</span>
+            <span class="drop">/</span>
+            <span class="dcomputer">Desktop Computers</span>
+        </div>
+        <!-- page router end -->
+
+        <!-- product top start -->
+        <div class="product_info_frame">
+            <div class="container">
+                <div class="product_images_main">
+                    <div class="full_screen_img">
+                       <img src="../public/images/icons/full-screen.svg" alt="">
+                    </div>
+                <span>Roll over image to zoom in</span>
+                <div class="trio_img_wrapper">
+                    <div class="trio_small_img">
+                        <img src="../public/images/products/small_trio.png" alt="">
+                    </div>
+                    <div class="trio_small_img">
+                        <img src="../public/images/products/trio.png" alt="">
+                    </div>
+                    <div class="trio_small_img" style="border: 2px solid rgba(68, 50, 151, 1);" >
+                        <img src="../public/images/products/macbook_16.png" alt="">
+                    </div>
+                </div>
+                </div>
+            <div class="info_bar">
+                <div class="top_menu_title"><span>
+                    Apple MacBook Pro 16" (2021) -
+                     Space Grey (Apple M1 Pro Chip / 1TB SSD / 16GB RAM)
+                </span>
+                    </div>
+                <div class="price_column">
+                    <p>$999</p>
+                    <span>$1,419.92</span> 
+                </div>
+                <div class="choosen_desc">
+                    <div class="left_desc">
+                        <span>Brand</span>
+                        <span>Model Name</span>
+                        <span>Screen size</span>
+                        <span>Color</span>
+                        <span>Hard Disk Size</span>
+                        <span>CPU Model</span>
+                        <span>Ram Memory Installed Size</span>
+                    </div>
+                    <div class="right_desc">
+                        <span>Apple</span>
+                        <span>MAcbook Pro</span>
+                        <span>16.2 Inches</span>
+                        <span>Space Grey</span>
+                        <span>1 TB</span>
+                        <span>Apple M1</span>
+                        <span>16GB</span>
+                    </div>
+
+                </div>
+                <div class="buy_box">
+                    <div class="add_remuve_box">
+                        <div class="remove_box" style="transform: rotate(-90deg);">I</div>
+                        <div class="buy_number_box">3</div>
+                        <div class="add_box">+</div>
+                    </div>
+                    <div><a class="add_cart_box" href="">Add to cart</a></div>
+                    <div><a class="btn_buy" href="">Buy Now</a></div>
+                    <div><img src="../public/images/icons/like.svg" alt="" sty></div>
+                    <div><img src="../public/images/icons/browse.png" alt=""></div>
+                
+                </div>
+                 <div class="horizontal_line"></div>
+                <div class="choosen_categories_desc">
+                    <span>SKU: SF1133569600-1</span>
+                    <span>Categories: Apple Macbook, Laptop, Computer</span>
+                    <span>Tags: apple, technologies, macbook</span>
+                </div>
+                <div class="share_icon">
+                 <span>Share</span>
+                <div>
+                <i class="fa-brands fa-facebook-f fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-twitter fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-instagram fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+                <i class="fa-brands fa-linkedin-in fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+                </div>
+                </div>
+                  <div class="horizontal_line"></div>
+                <div class="delivery_desc">
+                    <div><img src="../public/images/icons/truck.svg" alt="">  <span>Free Shipping & Returns: On all orders over $200.00</span></div>
+                    <div><img src="../public/images/icons/export_shop.svg" alt="">  <span>Sold and shipped by TFN-STORE | TUFAN STORE LLC Fulfilled by Zenmart</span></div>
+                    <div><img src="../public/images/icons/return-box.svg" alt=""> <span>Free 15-Day returns   <a href=""><u>Details</u></a></span></div>
+                </div>
+                
+            </div>
+            
+           
+            </div>
+        </div>
+        <!-- product top end -->
+
+        <!-- main description start -->
+         <div class="main_description">
+            <div class="container">
+            <div class="horizontal_line"></div>
+                <div class="description_line">
+
+                    <span class="desc_active">Description</span>
+                    <span>Details & Specs</span>
+                    <span>What's Included</span>
+                    <span>Vendor</span>
+                    <span>Return Policy</span>
+                    <span>Questions and Answers</span>
+                    <span>Customer Reviews</span>
+                </div>
+            <div class="horizontal_line"></div>
+            <div class="long_column_desc"><span>
+               <br> The first notebook of its kind, this Apple MacBook Pro is a beast. 
+                With the blazing-fast M1 Pro chip — the first Apple silicon designed for pros — you get groundbreaking performance and amazing battery life. Add to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all the ports you need.
+            </span></div>
+            <div class="big_title">
+                <span>More Information</span>
+            </div>
+            <div class="powerful_performance_list">
+                <p>Powerful performance</p>
+                <ul class="description_list">
+                    <li>English-language MacBook Pro</li>
+                    <li>10-core Apple M1 Pro chip for a giant leap in CPU, GPU, and machine learning performance</li>
+                    <li>16GB of RAM so everything you do is fast and fluid</li>
+                    <li>16-core Neural Engine for advanced machine learning</li>
+                    <li>16-core GPU</li>
+                    <li>Ultrafast 1TB solid state drive (SSD) is blazing fast, so you can take all your photos and videos with you no matter.</li>
+                </ul>
+                
+            </div>
+            <div class="display_radio_list">
+                <p>Display and Radio</p>
+            
+            <ul class="description_list">
+                <li>16.2-inch liquid retina XDR display delivers a responsive and natural viewing experience</li>
+                <li>3456 x 2234 native resolution with support for millions of colours</li>
+                <li>ProMotion technology for adaptive refresh rates up to 120Hz</li>
+                <li>Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming</li>
+                <li>High fidelity six speaker sound system with forece-cancelling woofers</li>
+            </ul>
+            </div>
+            </div>
+         </div>
+         <!-- main description end -->
+
+     <!-- Related Products start -->
+     <div class="selling_product_frame">
+    <div class="container">
+     <div class="category_top">
+            <span>Related product</span>
+            <div class="pagionation_box">
+    <div class="pagionation_main">
+        <img src="../public/images/icons/arrow-prev_next.svg" alt="">
+        <div class="pagionation_dot">
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+        </div>
+        <img src="../public/images/icons/arrow-prev_next.svg" alt=""
+         style="transform: scale(-1);">
+    </div>
+ </div>
+        </div>
+   <div class="product_wrapper">
+      <div class="product_boxes">
+         <!-- product 1 -->
+        <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/acer_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">SAMSUNG</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+             Acer Aspire 5 15.6" Laptop - Silver 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$32.50</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+        <!-- product 2 -->
+         <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/nitro_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">SONY</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+             Acer Nitro 5 15.6" Gaming Laptop - Black 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$32.50</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+      <!-- product 3 -->
+       <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/sony_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">SONY</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+             Acer Aspire 5 15.6" Laptop - Silver 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$399.0</strong>
+            <span>$450</span>
+          </div>
+        </div>
+      </div>
+      <!-- product 4 -->
+       <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/acer_silver.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">EASTSPORT</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+             Acer Aspire 5 15.6" Laptop - Silver (Intel Core 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$32.50</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+      <!-- product 5 -->
+        <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/asus_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">ROLEX</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+           ASUS VivoBook 15 X515 15.6" Laptop - Slate Grey
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$18.124</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+      <!-- product 6 -->
+       <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/rolex_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">ROLEX</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+         ASUS ROG Strix G15 15.6" Gaming Laptop 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$18.124</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+      </div>
+         </div>
+</div>
+    </div>
+    <!--Related product end -->
+
+    <!-- Related Products start -->
+     <div class="selling_product_frame" style="margin-bottom: 60px;">
+    <div class="container">
+     <div class="category_top">
+            <span>You may also Like...</span>
+            <div class="pagionation_box">
+    <div class="pagionation_main">
+        <img src="../public/images/icons/arrow-prev_next.svg" alt="">
+        <div class="pagionation_dot">
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+        </div>
+        <img src="../public/images/icons/arrow-prev_next.svg" alt=""
+         style="transform: scale(-1);">
+    </div>
+ </div>
+        </div>
+   <div class="product_wrapper">
+      <div class="product_boxes">
+         <!-- product 1 -->
+        <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/acer_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">SAMSUNG</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+             Acer Aspire 5 15.6" Laptop - Silver 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$32.50</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+        <!-- product 2 -->
+         <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/nitro_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">SONY</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+             Acer Nitro 5 15.6" Gaming Laptop - Black 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$32.50</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+      <!-- product 3 -->
+       <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/sony_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">SONY</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+             Acer Aspire 5 15.6" Laptop - Silver 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$399.0</strong>
+            <span>$450</span>
+          </div>
+        </div>
+      </div>
+      <!-- product 4 -->
+       <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/acer_silver.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">EASTSPORT</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+             Acer Aspire 5 15.6" Laptop - Silver (Intel Core 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$32.50</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+      <!-- product 5 -->
+        <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/asus_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">ROLEX</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+           ASUS VivoBook 15 X515 15.6" Laptop - Slate Grey
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$18.124</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+      <!-- product 6 -->
+       <div class="product_box">
+        <a href="../order/cart.html">
+          <div class="product_img_box" style="background: url('../public/images/products/rolex_laptop.png');
+           background-size: cover;">
+          </div>
+        </a>
+        <div class="product_content_box">
+          <span class="product_title">ROLEX</span>
+          <a href="../product/chosenProduct.html">
+            <p class="product_desc">
+         ASUS ROG Strix G15 15.6" Gaming Laptop 
+          </a>
+          <div class="review_box">
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <img src="../public/images/icons/review.svg" alt="" />
+            <span>3,014 reviews</span>
+          </div>
+          <div class="price_box">
+            <strong>$18.124</strong>
+            <span>$45</span>
+          </div>
+        </div>
+      </div>
+      </div>
+         </div>
+</div>
+    </div>
+    <!--Related product end -->
+
+         </div>
+    
+    <!-- chosenproduct end -->
+
+   
+
+    <!-- footer start -->
+    <div class="footer_frame">
+ <div class="container">
+<div class="footer_top">
+     <div class="footer_content_box">
+     <span class="footer_contact_title">Contact US</span>
+     <div class="footer_contact_main">
+                    <img src="../public/images/icons/phone-call.svg" alt="">
+                    <div> 
+                        <strong>Monday-Friday: 08am-9pm</strong>
+                        <span>+(1) 123 456 7890</span>
+                    </div>
+     </div>
+     <div class="footer_contact_main">
+                    <img src="../public/images/icons/email.svg" alt="">
+                    <div> 
+                        <strong>Need help with your order?</strong>
+                        <span>support@zenmart.com</span>
+                    </div>
+     </div>
+    </div>
+
+ <div class="footer_support_box">
+      <span class="footer_contact_title">Customer Support</span>
+      <a href="">Contact US</a>
+      <a href="">Help Center</a>
+      <a href="">Return & Exchanges</a>
+      <a href="">Best Buy Financing</a>
+      <a href="">Best Buy Gift Card</a>
+     </div>
+
+      <div class="footer_support_box" style="margin-left: 40px;">
+      <span class="footer_contact_title">Services</span>
+      <a href="">Geek Squad</a>
+      <a href="">In-Home Advisor</a>
+      <a href="">Trade-In Program</a>
+      <a href="">Electronics Recycling</a>
+      <a href="">Best Buy Health</a>
+    
+     </div>
+
+     <div class="footer_media_box" style="margin-left: 40px;">
+        <div class="footer_media_main">
+            <span class="footer_contact_title">Follow Us</span>
+            <div>
+            <i class="fa-brands fa-facebook-f fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+            <i class="fa-brands fa-twitter fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+            <i class="fa-brands fa-instagram fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+            <i class="fa-brands fa-linkedin-in fa-canvas-square" style="color: rgb(0, 0, 0);"></i>
+            </div>
+        </div>
+        <div class="footer_media_main" style="margin-top: 30px;">
+            <span class="footer_contact_title">Mobile Apps</span>
+            <div class="mobile_app_box">
+        <i class="fa-brands fa-apple"style="color: rgb(0, 0, 0);"></i>
+           <span>iOS App</span>
+            </div>
+            <div class="mobile_app_box">
+            <i class="fa-brands fa-android" style="color: rgb(0, 0, 0);"></i>
+            <span>Android App</span>
+            </div>
+        </div>
+     </div>
+     <div class="footer_media_box" style="justify-content: flex-end;">
+        <div class="footer_media_main">
+            <span class="footer_contact_title">We Accept</span>
+            <div class="card_box">
+            <img src="../public/images/icons/visa.png" alt="">
+            <img src="../public/images/icons/master_card.png" alt="">
+            <img src="../public/images/icons/apple_pay.png" alt="">
+            <img src="../public/images/icons/dicvover.png" alt="">
+            <img src="../public/images/icons/paypal.png" alt="">
+            <img src="../public/images/icons/amex.png" alt="">
+            </div>
+        </div>
+     </div>
+     </div>
+      <div class="footer_bottom">
+        <div class="footer_main">
+            <div class="footer_bottom_left">
+                <span>© 2022 Zenmart. All Rights Reserved</span>
+                <span style="margin-left: 60px;">Privacy  ·  Terms  ·  Sitemap</span>
+            </div>
+
+            <div class="footer_bottom_right">
+                <div class="footer_select_box">
+                    <span>Currency</span>
+                <select name="" id="">
+                <option value="usd" selected>USD</option>
+                </select>
+                </div>
+                 <div class="footer_select_box" style="margin-left: 25px;">
+                    <span>Language</span>
+                <select name="" id="">
+                <option value="eng" selected>English</option>
+                </select>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- footer end -->
+</body>
+</html>
