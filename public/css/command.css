@@ -20,7 +20,9 @@ p {
   position: relative;
   width: 1320px;
   height: auto;
-  display: flex;}
+  display: flex;
+  margin-top: 20px;
+}
 
 
     /* Navbar */
