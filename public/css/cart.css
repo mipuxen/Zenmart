@@ -1,0 +1,479 @@
+.cart_page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  /* choose_frame */
+
+
+.shopping_cart_frame .container {
+
+}
+.choose_frame .title {
+    margin: 21px 0px 21px;
+    width: 100%;
+    height: 22px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.choose_frame .title span {
+    margin-right: 10px;
+
+font-family: var(--font);
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+   /* shopping cart_frame  */
+
+.shopping_cart_frame .container {
+
+    flex-direction: column;
+    align-items: center;
+
+}
+.shopping_cart_frame .cart_head {
+    width: 1320px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page_head h2 {
+    
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cart_head .page_head {
+    width: auto;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cart_head .page_head p {
+    
+
+color: rgba(0, 0, 0, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cart_head .procces_bar {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+} 
+.cart_head .procces_bar .div_1 {
+    width: 241px; 
+    height: 6px; 
+
+    border-radius: 6px;
+    background: rgba(245, 195, 75, 1);
+}
+.cart_head .procces_bar .div_2 {
+    width: 124px;
+    height: 6px; 
+
+    border-radius: 6px;
+    background: rgba(243, 245, 246, 1);
+}
+
+
+      /* table_frame  */
+
+
+.table_frame .container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* 1. The outer frame: border and rounded corners live here */
+.table_page {
+    width: 872px;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* 2. The table itself */
+.table_page table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* 3. Header row */
+.table_page thead {
+    height: 70px;
+    background: rgba(243, 245, 246, 1);
+}
+.table_page thead th {
+    padding: 0 20px;
+    text-align: left;
+    color: rgba(4, 30, 66, 1);
+    font-family: var(--font);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* 4. Column widths (set on header cells only; PRODUCT gets the rest) */
+.table_page thead th:nth-child(2) { width: 15%; }
+.table_page thead th:nth-child(3) { width: 20%; }
+.table_page thead th:nth-child(4) { width: 15%; }
+.table_page thead th:nth-child(5) { width: 12%; }
+
+/* 5. Body rows */
+.table_page tbody tr {
+    height: 180px;
+    border-top: 1px solid rgba(234, 234, 234, 1);
+}
+.table_page tbody td {
+    padding: 40px 20px 0 20px;
+    vertical-align: top;
+}
+
+/* 6. Product cell */
+.table_page .product_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 37px;
+}
+.table_page .td_img img {
+    width: 93px;
+    height: 100px;
+    object-fit: contain;
+}
+.table_page .text_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.table_page .text_box span {
+    color: rgba(4, 30, 66, 1);
+    font-family: var(--font);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* 7. Price and total cells */
+.table_page .td_3 {
+    padding-top: 52px;
+}
+.table_page .td_3 span {
+    color: rgba(4, 30, 66, 1);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* 8. Quantity box */
+.table_page .box_1 {
+    width: 154px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.table_page .box_1 span {
+    color: rgba(4, 30, 66, 1);
+    font-family: var(--font);
+    font-size: 15px;
+    line-height: 22px;
+}
+.table_page .img_ {
+    width: 35px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table_page .img_:hover {
+    border-radius: 30px;
+    background: rgba(243, 245, 246, 1);
+}
+
+/* 9. Remove button */
+.table_page .td_5 {
+    padding-top: 44px;
+}
+
+.table_frame .checkout_box {
+    width: 422px;
+    height: 418px;
+    padding: 28px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(234, 234, 234, 1);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 1);
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.checkout_box .box_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.checkout_box .box_title span {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 20px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.checkout_box .clculate_box {
+    margin-top: 20px;
+    width: 366px;
+    height: 182px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.checkout_box .clculate_box .text_left {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    
+}
+.checkout_box .clculate_box .text_left span {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: left;
+}
+.checkout_box .clculate_box .cost_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.checkout_box .clculate_box .cost_right p {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: right;
+}
+.checkout_box .clculate_box .cost_right .free_p {
+    color: rgba(233, 74, 74, 1);
+}
+.checkout_box .total_box {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkout_box .total_box .text_left p {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: right;
+}
+.checkout_box .total_box .cost_right span {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: right;
+}
+.checkout_box .chekout_button {
+    margin-top: 25px;
+    width: 365.83px;
+    height: 52px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 35px 15px 35px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(245, 195, 75, 1);
+    border-radius: 6px;
+
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+     background: rgba(245, 195, 75, 1);
+
+}
+.checkout_box .chekout_button a {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+.table_frame .table_bottom {
+    margin: 30px 0px 45px; 
+    width: 880.71px;
+    height: 55px;
+
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.table_frame .table_bottom .coupon_box {
+    margin-right: 130px;
+    width: 360px;
+    height: 55px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: 1px dashed rgba(98, 105, 116, 1);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 1);
+}
+.table_frame .table_bottom .coupon_box span {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+.table_frame .table_bottom .coupon_box p {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.table_frame .table_bottom .continue_box {
+    width: 204px;
+    height: 52px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 35px 15px 35px;
+
+    box-sizing: border-box;
+    border: 2px solid rgba(245, 195, 75, 1);
+    border-radius: 6px;
+
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+
+
+}
+.table_frame .table_bottom .continue_box a {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
+.table_frame .table_bottom .update_box {
+    width: 150px;
+    height: 52px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 35px 15px 35px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(245, 195, 75, 1);
+    border-radius: 6px;
+    box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+    background: rgba(245, 195, 75, 1);
+
+}
+.table_frame .table_bottom .update_box a {
+
+color: rgba(4, 30, 66, 1);
+font-family: var(--font);
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+}
