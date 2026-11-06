@@ -66,7 +66,7 @@ Or use the **Live Server** extension in VS Code.
 - Adding a third-party library (Swiper.js) to a static page
 - Organising a multi-page project into folders
 
-> *This is just the beginning. There is more to learn and enjoy.* 🚀
+> *This is just the beginning.* 🚀
 
 ---
 
